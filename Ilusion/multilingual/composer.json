@@ -1,0 +1,25 @@
+{
+    "name": "Ilusion/multilingual",
+    "type": "phpbb-extension",
+    "description": "Multilingual forums and descriptions",
+    "homepage": "https://github.com/Ilusion9/phpbb-multilingual-forums",
+    "version": "1.0.0",
+    "time": "2021-01-03",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ilusion",
+            "role": "Developer phpBB"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": "3.3.*@dev"
+    },
+    "extra": {
+        "display-name": "Multilingual forums and descriptions",
+        "soft-require": {
+            "phpbb/phpbb": "3.3.*@dev"
+        }
+    }
+}

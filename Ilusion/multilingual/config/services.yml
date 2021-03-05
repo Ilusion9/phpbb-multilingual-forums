@@ -1,0 +1,8 @@
+services:
+    Ilusion.multilingual.listener:
+        class: Ilusion\multilingual\event\listener
+        arguments:
+            - '@user'
+            - '@path_helper'
+        tags:
+            - { name: event.listener }
